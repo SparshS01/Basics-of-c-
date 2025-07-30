@@ -2,6 +2,6 @@
 #include<iostream>
 int main()
 {
-    std::cout<<"Hello, I'm Tarushi";
+    std::cout<<"hello boy";
     return 0;
 }
