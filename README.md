@@ -1,59 +1,80 @@
-#  Basic-c-
-This repositor contains a collection of basic c++ programming assignments completed as a part of my college coursework. 
+Aim:
+To understand the process of downloading and installing VS Code, and to write and execute two basic C++ programs:
 
-Program 1: Introduction Program
-Description:
-This is a simple introductory program written in C++ that prints a message to the console. It demonstrates the basic structure of a C++ program, including the use of the #include directive for input/output and the main() function. This program serves as a foundational example for understanding syntax, output statements, and basic compilation.
+Hello World
 
-Key Concepts:
+Simple Calculator (Addition of Two Numbers)
 
-1) #include<iostream> for input/output operations
-2) std::cout for displaying output
-3) Basic main() function and return statement
+Algorithm:
+(01) HELLO WORLD PROGRAM
+Start the program.
 
-Program 2: Inputting Two Numbers
-Description:
-This program prompts the user to input two integer values from the keyboard. It introduces the concept of input handling in C++ using cin, along with variable declaration and basic user interaction.
+Include the necessary header for input/output (#include <iostream>).
 
-Key Concepts:
+Use the using namespace std; statement.
 
-1) Declaring integer variables
-2) Taking user input using cin
-3) Displaying prompts using cout
-4) Use of using namespace std
+Begin the main() function.
 
-Program 3: Basic Calculator Program
-Description:
-This program functions as a basic calculator that performs arithmetic operations—addition, subtraction, multiplication, and division—on two user-provided floating-point numbers. It demonstrates variable declarations, arithmetic operators, and formatted output in C++.
+Print "Hello World" to the screen using cout.
 
-Key Concepts:
+End the main() function with return 0;.
 
-1) Using float and int for variable types
-2) Reading input from the user
-3) Performing basic arithmetic operations
-4) Displaying results clearly using cout
+End the program.
 
-## Objective
+(02) CALCULATOR PROGRAM (Addition)
+Start the program.
 
-To understand the basic structure of a C++ program and how to display output using the `cout` statement.
+Include the necessary header for input/output (#include <iostream>).
 
----
-## C++ Identifiers
+Use the using namespace std; statement.
 
-| asm         | else        | new            | this        |
-|-------------|-------------|----------------|-------------|
-| auto        | enum        | operator       | throw       |
-| bool        | explicit    | private        | true        |
-| break       | export      | protected      | try         |
-| case        | extern      | public         | typedef     |
-| catch       | false       | register       | typeid      |
-| char        | float       | reinterpret_cast | typename  |
-| class       | for         | return         | union       |
-| const       | friend      | short          | unsigned    |
-| const_cast  | goto        | signed         | using       |
-| continue    | if          | sizeof         | virtual     |
-| default     | inline      | static         | void        |
-| delete      | int         | static_cast    | volatile    |
-| do          | long        | struct         | wchar_t     |
-| double      | mutable     | switch         | while       |
-| dynamic_cast| namespace   | template
+Declare three integer variables: num1, num2, and sum (initialize sum to 0).
+
+Display "Enter first number:" and take input for num1 using cin.
+
+Display "Enter second number:" and take input for num2 using cin.
+
+Calculate the sum of num1 and num2, store it in sum.
+
+Display "Sum of given numbers = " followed by the value of sum using cout.
+
+End the program with return 0;.
+
+Theory:
+(01) Hello World Program
+The program prints "Hello World" on the screen.
+
+It includes the header file <iostream> to use input/output functions like cin and cout.
+
+The using namespace std; line allows use of standard functions without std:: prefix.
+
+The main() function serves as the entry point of the program.
+
+Inside main(), cout << "Hello World"; displays the message on the screen.
+
+return 0; indicates successful completion of the program.
+
+Note: Ensure correct syntax like cout << instead of cout <.
+
+(02) Calculator Program (Addition)
+The program asks the user to enter two numbers.
+
+It takes the inputs using cin and stores them in num1 and num2.
+
+It calculates the sum using sum = num1 + num2;.
+
+The result is displayed using cout.
+
+This demonstrates basic input, output, and arithmetic operations in C++.
+
+Conclusion:
+Both programs introduce the basic structure of a C++ program, including:
+
+Use of header files
+
+Input and Output (cin / cout)
+
+Use of variables and arithmetic operations
+
+Program execution flow using main() and return 0;
+They serve as the foundation for understanding more complex C++ programs in the future.
